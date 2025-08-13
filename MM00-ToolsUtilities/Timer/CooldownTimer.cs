@@ -3,7 +3,7 @@ using System;
 //*** HOW TO USE ***//
 //create field private CooldownTimer timer;
 //in Start() create timer object eg: timer = new CooldownTimer(10f, ()=>Debug.Log("Hello"));
-//in Update() timer.Update(Time.DeltaTime);
+//in Update() timer.Tick(Time.DeltaTime);
 //******************//
 
 public class CooldownTimer 
@@ -29,3 +29,4 @@ public class CooldownTimer
         }
     }
 }
+
